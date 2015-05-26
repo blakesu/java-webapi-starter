@@ -1,4 +1,4 @@
-package dbmodel;
+package domain.dbmodel;
 
 /**
  * Created by bsu on 2015/5/22.
