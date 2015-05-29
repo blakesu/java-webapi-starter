@@ -11,8 +11,11 @@
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
        ">
 
+    <mvc:annotation-driven />
     <context:component-scan base-package="controller"></context:component-scan>
 
-    <mvc:annotation-driven />
+    <context:annotation-config />
+    <context:component-scan base-package="domain"></context:component-scan>
+
 
 </beans>
